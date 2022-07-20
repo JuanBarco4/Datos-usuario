@@ -31,7 +31,6 @@ let bt_anterior = document.getElementById("bt_anterior");
         let datos4 = document.getElementById("datos4");
         let datos5 = document.getElementById("datos5");
         let datos6 = document.getElementById("datos6");
-        let datos7 = document.getElementById("datos7");
         let bt_ver = document.getElementById("bt_ver");
         let titulo = document.getElementById("titulo")
 
@@ -40,11 +39,10 @@ let bt_anterior = document.getElementById("bt_anterior");
                         titulo.innerHTML = '<h1>' + 'Datos del Usuario' + '</h1>'
                         datos1.innerHTML = '<b>' + 'ID: ' + '</b>' + user[usuario][0];
                         datos2.innerHTML = '<b>' + 'Nickname: ' + '</b>' + user[usuario][1];
-                        datos3.innerHTML = '<b>' + 'Password: ' + '</b>' + user[usuario][2];
-                        datos4.innerHTML = '<b>' + 'Username ' + '</b>' + user[usuario][3];
-                        datos5.innerHTML = '<b>' + 'Address: ' + '</b>' + user[usuario][4];
-                        datos6.innerHTML = '<b>' + 'E-mail: ' + '</b>' + user[usuario][5];
-                        datos7.innerHTML = '<b>' + 'Phone: ' + '</b>' + user[usuario][6];
+                        datos3.innerHTML = '<b>' + 'Username ' + '</b>' + user[usuario][3];
+                        datos4.innerHTML = '<b>' + 'Address: ' + '</b>' + user[usuario][4];
+                        datos5.innerHTML = '<b>' + 'E-mail: ' + '</b>' + user[usuario][5];
+                        datos6.innerHTML = '<b>' + 'Phone: ' + '</b>' + user[usuario][6];
                     }
                
         }
